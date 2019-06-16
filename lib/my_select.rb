@@ -1,8 +1,13 @@
 def my_select(collection)
- # your code here!
+ i = 0
+ new_array = []
+ 
+ new_array
 end
 
-
+my_select(array) do |num|
+  num.even? ? true : false 
+end
 
 
 
