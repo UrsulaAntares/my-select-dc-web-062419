@@ -1,15 +1,15 @@
 def my_select(collection)
  i = 0
  new_array = []
-  while i < array.length
-    even_number = yield array[i]
+  while i < collection.length
+    even_number = yield collection[i]
     new_array << even_number
     i += 1
   end
  new_array
 end
 
-my_select(array) do |num|
+my_select(collection) do |num|
    
 end
 
