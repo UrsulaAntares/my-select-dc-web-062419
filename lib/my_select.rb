@@ -9,9 +9,9 @@ def my_select(collection)
  new_array
 end
 
-my_select(collection) do |num|
-   
-end
+#my_select(collection) do |num|
+#   
+#end
 
 
 
