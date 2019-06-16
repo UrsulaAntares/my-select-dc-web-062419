@@ -10,7 +10,7 @@ def my_select(collection)
 end
 
 my_select(array) do |num|
-  num.even? ? num : false 
+   
 end
 
 
