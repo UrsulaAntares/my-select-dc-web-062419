@@ -3,7 +3,8 @@ def my_select(collection)
  new_array = []
   while i < collection.length
     even_number = yield collection[i]
-    new_array << even_number
+    if even_number == true 
+      new_array << collection[1]
     i += 1
   end
  new_array
