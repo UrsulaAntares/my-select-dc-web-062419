@@ -5,6 +5,7 @@ def my_select(collection)
     even_number = yield collection[i]
     if even_number == true 
       new_array << collection[1]
+    end  
     i += 1
   end
  new_array
